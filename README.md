@@ -116,10 +116,20 @@ typdef struct
 	int top;
 }Sqstack;
 ~~~
-- 判栈空
+- 初始化栈
 ~~~c++
 void InitStack(SqStack &S)
 {
 	S.top == -1;
 }
 ~~~
+- 判栈空
+~~~
+void StackEmpty(SqStack &S)
+{
+	if (S.top == -1)
+		return true;
+	if (S.top != -1)
+		return false;
+}
+
