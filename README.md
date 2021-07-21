@@ -108,7 +108,7 @@ p->next = s;
 ~~~
 ---
 # 栈和队列  
-- 顺序栈  
+> 顺序栈  
 ~~~c++
 typdef struct 
 {
@@ -124,7 +124,7 @@ void InitStack(SqStack &S)
 }
 ~~~
 - 判栈空
-~~~
+~~~c++
 void StackEmpty(SqStack &S)
 {
 	if (S.top == -1)
@@ -132,4 +132,5 @@ void StackEmpty(SqStack &S)
 	if (S.top != -1)
 		return false;
 }
+~~~
 
