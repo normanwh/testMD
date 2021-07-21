@@ -109,3 +109,17 @@ p->next = s;
 ---
 # 栈和队列  
 - 顺序栈  
+~~~c++
+typdef struct 
+{
+	ElemType data[MAXSIZE]
+	int top;
+}Sqstack;
+~~~
+- 判栈空
+~~~c++
+void InitStack(SqStack &S)
+{
+	S.top == -1;
+}
+~~~
