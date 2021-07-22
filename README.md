@@ -133,4 +133,13 @@ void StackEmpty(SqStack &S)
 		return false;
 }
 ~~~
+- 进栈
+~~~c++
+void Push(SqStack &S,ELemType x)
+{
+	if(S.top = MAXSIZE -1)
+		return false;
+	S.data[++S.top] = x;
+	return true;
+}
 
