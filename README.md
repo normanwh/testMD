@@ -142,4 +142,11 @@ void Push(SqStack &S,ELemType x)
 	S.data[++S.top] = x;
 	return true;
 }
-
+~~~
+- 出栈
+~~~c++
+void Pop(SqStack &S,ELemType x)
+{
+	if(S.
+}
+~~~
